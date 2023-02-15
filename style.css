@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2a9d8f;
+    text-align: center;
+    
+}
+header h1{
+    font-size: 250%;
+    padding: 20px 0px;
+    margin: 0;
+    color: aliceblue;
+}
+header nav{
+    border-radius: 0px 0px 0px 20px;
+    display: flex;
+    padding: 10px 0px;
+    background: #264653;
+    margin-left: 70%;
+}
+header nav div{
+    padding: 0 50px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+header nav div a{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+header nav div a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
