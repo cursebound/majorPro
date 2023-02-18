@@ -19,10 +19,11 @@ header nav{
     padding: 10px 0px;
     background: #264653;
     margin-left: 70%;
+    
 }
 header nav div{
     padding: 0 50px;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 a{
     text-decoration: none;
@@ -34,5 +35,86 @@ header nav div a{
 }
 header nav div a:hover {
     text-decoration: underline;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 3px;
+}
+
+/*----------------Main Content-----------------------*/
+
+.container{
+    /* border: 1px solid black; */
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+}
+.container div{
+    /* border: 1px solid black; */
+    width: auto;
+    height: 68vh;
+    padding: 10px;
+}
+.main-content div{
+    overflow-y: scroll;
+    height: 80%;
+    width: auto;
+    /* border: 2px solid black; */
+}
+.side-content{
+    margin-left: 10px;
+    border-left: 2px solid#2a9d8f;
+}
+.side-content ul{
+    margin: 0;
+    padding: 0px 0px;
+}
+.side-content ul li{
+    list-style: none;
+    text-align: center;
+    margin: 5px 0px;
+    padding: auto;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-weight: 500;
+}
+/*----------------Footer-----------------------*/
+
+footer div{
+    width: auto;
+    background-color: #2a9d8f;
+}
+footer div p{
+    /* background-color: aqua; */
+    height: 30px;
+    padding: 0px 30px;
+}
+
+/* #contact{
+    float: left;
+}
+#products{
+    float: center;
+}
+#newsletter{
+    float: right;
+} */
+footer div{
+    display: flex;
+    gap: 40%;
+    font-weight: 600;
+    
+}
+footer div p{
+    color: #fff;
+}
+footer h5{
+    clear: both;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px;
+    font-weight: 300;
+    color: #fff;
+}
+footer{
+    background-color: #264653;
+
 }
